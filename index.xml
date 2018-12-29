@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UBC CSSS Styleguide</title>
+    <link>https://ubccsss.github.io/styles/</link>
+    <description>Recent content on UBC CSSS Styleguide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    
+	<atom:link href="https://ubccsss.github.io/styles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Colours</title>
+      <link>https://ubccsss.github.io/styles/colours/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubccsss.github.io/styles/colours/</guid>
+      <description> Logo colours Cube Blue #498df8 CMYK 66, 43, 0, 0   Cube Bluer #08339a CMYK 100, 92, 4, 1   White #ffffff CMYK 0, 0, 0, 0   Outline #212121 CMYK 70, 66, 65, 73   Backgrounds Social Blue #0079d2 CMYK 82, 49, 0, 0   Social Black #0a0e1a CMYK 79, 73, 59, 79   </description>
+    </item>
+    
+    <item>
+      <title>Logo</title>
+      <link>https://ubccsss.github.io/styles/logo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubccsss.github.io/styles/logo/</guid>
+      <description>Transparent Background SVG PNG   Color Background SVG PNG   Outline SVG PNG   Monocolour SVG PNG   Monocolour Variant SVG PNG   </description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://ubccsss.github.io/styles/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubccsss.github.io/styles/typography/</guid>
+      <description>Montserrat Hello World. UBC CSSS. The spectacle before us was indeed sublime.
+Google Fonts Font Squirrel
+Montserrat is used for the logo text and for headers throughout the website and promotional material. On the web, use only 1 weight per site (500 by default) to avoid loading too many fonts. On print, use any weights as desired. You may also substitute headings with custom header fonts for certain events.</description>
+    </item>
+    
+  </channel>
+</rss>
