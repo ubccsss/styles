@@ -1,0 +1,10 @@
+baseURL: "https://ubccsss.github.io/styles/"
+languageCode: "en-ca"
+title: UBC CSSS Styleguide
+theme: hugo-bootstrap
+googleAnalytics: UA-88004303-1
+
+params:
+  sidebar:
+    showRecent: false
+    showTaxonomy: false

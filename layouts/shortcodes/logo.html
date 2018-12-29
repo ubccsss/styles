@@ -1,0 +1,8 @@
+<div class="logo mb-5">
+    <img class="mb-3" height="150" src='{{ .Get "src" | relURL }}' alt='{{ .Get "alt" }}'>
+    {{ .Inner }}
+    <div class="btn-group">
+        <a class="btn btn-secondary" href='{{ .Get "src" | relURL }}'>SVG</a>
+        <a class="btn btn-secondary" href='{{ replace (.Get "src") ".svg" ".png" | relURL }}'>PNG</a>
+    </div>
+</div>

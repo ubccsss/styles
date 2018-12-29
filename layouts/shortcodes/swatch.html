@@ -1,0 +1,7 @@
+<div class="color-swatch shadow d-inline-block p-3 rounded" style='background:{{ .Get "color" | safeCSS }};color:{{ .Get "text" | default "white" | safeCSS }}'>
+    <h6>{{ .Inner }}</h6>
+    <div class="color-swatch-colors mt-5">
+        <div>{{ .Get "color" }}</div>
+        {{ if (.Get "cmyk") }}<div>CMYK {{ .Get "cmyk" }}</div>{{ end }}
+    </div>
+</div>

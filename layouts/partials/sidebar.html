@@ -1,0 +1,10 @@
+<nav class="col-12 col-lg-3 mr-auto blog-sidebar">
+    <ul class="nav flex-column nav-pills">
+        {{ $url := .URL | relLangURL }}
+        {{ range .Site.RegularPages }}
+        <li class="nav-item">
+            <a class="nav-link {{ if eq $url (.URL | relLangURL) }}active{{end}}" href="{{ .URL }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
