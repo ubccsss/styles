@@ -2,7 +2,7 @@
 title: Typography
 ---
 
-### Montserrat
+##### Montserrat
 <span class="display-4">Hello World. UBC CSSS. The spectacle before us was indeed sublime.</span>
 
 <a class="btn btn-secondary btn-sm" href="https://fonts.google.com/specimen/Montserrat">Google Fonts</a>

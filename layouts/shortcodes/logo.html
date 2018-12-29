@@ -1,8 +1,14 @@
-<div class="logo mb-5">
-    <img class="mb-3" height="150" src='{{ .Get "src" | relURL }}' alt='{{ .Get "alt" }}'>
+{{ $src := .Get "src" }}
+{{ if hasPrefix $src "/" }}
+    {{ $src = ($src | relURL) }}
+{{ end }}
+{{ $type := split (.Get "type" | default "svg png") " " }}
+<div class="logo m-4 d-inline-block">
+    <img class='mb-3{{ if .Get "dark" }} bg-dark{{ end }}' height="150" src="{{ $src }}" alt='{{ .Get "alt" }}'>
     {{ .Inner }}
     <div class="btn-group">
-        <a class="btn btn-secondary" href='{{ .Get "src" | relURL }}'>SVG</a>
-        <a class="btn btn-secondary" href='{{ replace (.Get "src") ".svg" ".png" | relURL }}'>PNG</a>
+        {{ if in $type "svg" }}<a class="btn btn-secondary" href='{{ replace $src ".png" ".svg" }}'>SVG</a>{{ end }}
+        {{ if in $type "png" }}<a class="btn btn-secondary" href='{{ replace $src ".svg" ".png" }}'>PNG</a>{{ end }}
+        {{ if in $type "pdf" }}<a class="btn btn-secondary" href='{{ replace $src ".jpg" ".pdf" }}'>PDF</a>{{ end }}
     </div>
 </div>
