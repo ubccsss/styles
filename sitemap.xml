@@ -12,7 +12,16 @@
   </url>
   
   <url>
+    <loc>https://ubccsss.github.io/styles/events/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ubccsss.github.io/styles/logo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ubccsss.github.io/styles/events/semi-annual-general-meeting/</loc>
   </url>
   
   <url>
