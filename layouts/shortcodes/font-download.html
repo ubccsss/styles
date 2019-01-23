@@ -1,0 +1,13 @@
+<div class="btn-group mb-2">
+    {{ $google := "" }}
+    {{ $squirrel := "" }}
+    {{ if .IsNamedParams }}
+        {{ $google = .Get "googlefonts" }}
+        {{ $squirrel = .Get "fontsquirrel" }}
+    {{ else }}
+        {{ $google = .Get 0 }}
+        {{ $squirrel = replace (lower $google) "+" "" }}
+    {{ end }}
+    <a class="btn btn-secondary btn-sm" href="https://fonts.google.com/specimen/{{ $google }}">Google Fonts</a>
+    <a class="btn btn-secondary btn-sm" href="https://www.fontsquirrel.com/fonts/{{ $squirrel }}">Font Squirrel</a>
+</div>

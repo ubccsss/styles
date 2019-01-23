@@ -7,25 +7,29 @@ title: Semi-Annual General Meeting
 <h4>Poster</h4>
 {{</ logo >}}
 
-{{< logo src="banner.png" alt="Banner with Semi Annual General Meeting text" type="png" >}}
+{{< logo src="banner.png" alt="Banner with Semi Annual General Meeting text" type="png svg" >}}
 <h4>Banner</h4>
 {{</ logo >}}
 
-<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|PT+Sans" rel="stylesheet">
 
 ### Typography
 
 ##### Cabin Sketch
 <span class="display-4" style="font-family:'Cabin Sketch',cursive">Hello World. Semi-Annual General Meeting.</span>
 
-<a class="btn btn-secondary btn-sm" href="https://fonts.google.com/specimen/Cabin+Sketch">Google Fonts</a>
-<a class="btn btn-secondary btn-sm" href="https://www.fontsquirrel.com/fonts/cabinsketch">Font Squirrel</a>
+{{< font-download "Cabin+Sketch" >}}
+
+##### PT Sans
+<span class="display-4" style="font-family:'PT Sans',sans-serif">Hello World. Come ask questions or give inputs.</span>
+
+{{< font-download googlefonts="PT+Sans" fontsquirrel="pt-sans" >}}
 
 ### Assets
 {{< logo src="bulb.svg" alt="Lightbulb" dark="dark" type="svg" >}}
 <h4>Light bulb</h4>
 {{</ logo >}}
 
-{{< logo src="callout.svg" alt="Callout with exclamation point" type="svg" >}}
+{{< logo src="callout.svg" alt="Callout with exclamation point" dark="dark" type="svg" >}}
 <h4>Callout</h4>
 {{</ logo >}}
