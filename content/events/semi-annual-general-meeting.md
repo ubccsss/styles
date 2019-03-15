@@ -3,7 +3,7 @@ title: Semi-Annual General Meeting
 ---
 
 ### Files
-{{< logo src="poster.jpg" alt="Poster with Semi Annual General Meeting text" type="pdf" >}}
+{{< logo src="poster.svg" alt="Poster with Semi Annual General Meeting text" type="svg pdf png" >}}
 <h4>Poster</h4>
 {{</ logo >}}
 
