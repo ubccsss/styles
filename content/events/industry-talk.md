@@ -7,8 +7,6 @@ title: Industry Talk
 <h4>Banner</h4>
 {{</ logo >}}
 
-<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-
 ### Typography
 
 ##### Montserrat

@@ -11,7 +11,7 @@ title: Semi-Annual General Meeting
 <h4>Banner</h4>
 {{</ logo >}}
 
-<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|PT+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700" rel="stylesheet">
 
 ### Typography
 
