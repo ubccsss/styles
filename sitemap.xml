@@ -17,6 +17,10 @@
   </url>
   
   <url>
+    <loc>https://ubccsss.github.io/styles/events/industry-talk/</loc>
+  </url>
+  
+  <url>
     <loc>https://ubccsss.github.io/styles/logo/</loc>
   </url>
   
@@ -35,7 +39,6 @@
   
   <url>
     <loc>https://ubccsss.github.io/styles/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
