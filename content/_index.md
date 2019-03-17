@@ -12,3 +12,4 @@ you can find downloads for various assets used by the UBC CSSS in marketing.
 - Events
     - [Semi-Annual General Meeting (SAGM)](events/semi-annual-general-meeting/)
     - [Industry Talk](events/industry-talk/)
+    - [Project Hub](event/project-hub/)
