@@ -1,4 +1,5 @@
 {{ $src := .Get "src" }}
+{{ $ext := substr $src -1 4 }}
 {{ if hasPrefix $src "/" }}
     {{ $src = ($src | relURL) }}
 {{ end }}
@@ -7,8 +8,9 @@
     <img class='mb-3{{ if .Get "dark" }} bg-dark{{ end }}' height="150" src="{{ $src }}" alt='{{ .Get "alt" }}'>
     {{ .Inner }}
     <div class="btn-group">
-        {{ if in $type "svg" }}<a class="btn btn-secondary" href='{{ replace $src ".png" ".svg" }}'>SVG</a>{{ end }}
-        {{ if in $type "png" }}<a class="btn btn-secondary" href='{{ replace $src ".svg" ".png" }}'>PNG</a>{{ end }}
-        {{ if in $type "pdf" }}<a class="btn btn-secondary" href='{{ replace $src ".jpg" ".pdf" }}'>PDF</a>{{ end }}
+        {{ if in $type "svg" }}<a class="btn btn-secondary" href='{{ replace $src $ext ".svg" }}'>SVG</a>{{ end }}
+        {{ if in $type "png" }}<a class="btn btn-secondary" href='{{ replace $src $ext ".png" }}'>PNG</a>{{ end }}
+        {{ if in $type "jpg" }}<a class="btn btn-secondary" href='{{ replace $src $ext ".jpg" }}'>JPG</a>{{ end }}
+        {{ if in $type "pdf" }}<a class="btn btn-secondary" href='{{ replace $src $ext ".pdf" }}'>PDF</a>{{ end }}
     </div>
 </div>
