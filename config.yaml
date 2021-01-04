@@ -1,7 +1,7 @@
 baseURL: "https://ubccsss.github.io/styles/"
 languageCode: "en-ca"
 title: UBC CSSS Styleguide
-theme: hugo-bootstrap
+theme: hugo-bootstrap-5
 googleAnalytics: UA-88004303-1
 
 params:
